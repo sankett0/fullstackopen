@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzINiIsInR5cCI6IpXVCJ9.eyJ1c2VybmFtZSI6IlRlc3RhYWphIiwiaWQiOiI2MjhmOWVkNDExM2UyZDczMjBmMmIzN2IiLCJpYXQiOjE2NTM1Nzk1MjIsImV4cCI6MTY1MzU4MzEyMn0.iuKdAIFgECVAP6-ITpUQ2kATvsdKA4nP2Fkry8IfDik
+
+{
+    "title": "Toinen blogi",
+    "author": "Joku Vaan",
+    "url": "google.com",
+    "likes": 534
+}
